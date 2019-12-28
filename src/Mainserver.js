@@ -8,10 +8,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database:"gau"
+    host: "nuskkyrsgmn5rw8c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    user: "pp062tcgj6qojjn0",
+    password: "gr81yde66lw57deb",
+    database:"tok1uzginq31dg7b"
     
   });
   
